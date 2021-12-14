@@ -10,8 +10,8 @@ Task is to calculate the distance and answer few questions.
   5. It is necessary to install all required libraries in the local machine.
   
   Note: Cloning whole repository and installing of necessary library is necessary for the successful running of app.py
-        To do so, below is the install command of necessary package via anaconda prompt
-        conda install -c conda-forge streamlit
-        conda install -c anaconda pandas
-        conda install matplotlib 
-        conda install -c plotly plotly
+        To do so, below is the install command of necessary package via anaconda prompt:
+          - conda install -c conda-forge streamlit
+          - conda install -c anaconda pandas
+          - conda install matplotlib 
+          - conda install -c plotly plotly
