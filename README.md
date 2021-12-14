@@ -11,6 +11,7 @@ Task is to calculate the distance and answer few questions.
   
   Note: Cloning whole repository and installing of necessary library is necessary for the successful running of app.py
         To do so, below is the install command of necessary package via anaconda prompt:
+        
           - conda install -c conda-forge streamlit
           - conda install -c anaconda pandas
           - conda install matplotlib 
