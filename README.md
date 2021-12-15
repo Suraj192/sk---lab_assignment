@@ -2,6 +2,11 @@
 This repository contains the assignment by sk---lab. Dataset contains the employee address. Given is the address of headquater. 
 Task is to calculate the distance and answer few questions.
 
+Web hosting
+https://share.streamlit.io/suraj192/sk---lab_assignment/app.py
+
+Clicking the above link will lead you to the user interface.
+
 # Requirement file
 To install requirement file run pip install -r requirements.txt
 
