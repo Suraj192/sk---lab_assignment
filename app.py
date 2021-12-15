@@ -175,7 +175,7 @@ if option == 'Overall Information':
     fig = px.scatter_geo(employees_data, lat='Latitude', lon = 'Longitude',
                          color = 'Status', size= 'Yearly_avg_income', 
                          hover_data =['distance_to_headquater_km'],
-                         hover_name ='Name', scope='europe', basemap_visible=True, width=800,height=800,
+                         hover_name ='Name', scope='europe', basemap_visible=True, width=1000,height=800,
                          opacity=0.5,projection='mercator',center = {'lat':60, 'lon':24},
                         title='Overall Information')
     st.plotly_chart(fig)
@@ -185,7 +185,7 @@ elif option == 'Who lives closest to the company Headquater':
     fig = px.scatter_geo(df, lat='Latitude', lon = 'Longitude',
                          color = 'Name', size= 'Yearly_avg_income', 
                          hover_data =['distance_to_headquater_km'],
-                         hover_name ='Name', scope='europe', basemap_visible=True, width=800,height=800,
+                         hover_name ='Name', scope='europe', basemap_visible=True, width=1000,height=800,
                          opacity=0.5,projection='mercator',center = {'lat':60, 'lon':24},
                         title='Closest to the Company Headquater')
     st.plotly_chart(fig)
@@ -195,7 +195,7 @@ elif option == 'How many people live within 10 KM of the office':
     fig = px.scatter_geo(within_ten_km, lat='Latitude', lon = 'Longitude',
                          color = 'Name', size= 'Yearly_avg_income', 
                          hover_data =['distance_to_headquater_km'],
-                         hover_name ='Name', scope='europe', basemap_visible=True, width=800,height=800,
+                         hover_name ='Name', scope='europe', basemap_visible=True, width=1000,height=800,
                          opacity=0.5,projection='mercator',center = {'lat':60, 'lon':24},
                         title='Within 10 KM radius from Headquater')
     st.plotly_chart(fig)
